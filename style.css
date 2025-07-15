@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+
+body{
+    background-color: rgb(229, 226, 226);
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 150px;   
+    margin-left: 5px;
+    padding: 5px;
+
+
+}
+.logo{
+    background-image: url(White-Amazon-Logo-PNG-HD-Quality.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-address{
+    height: 50px;
+    width: 90px;
+    margin: 8px 2px 5px 0px;
+    margin-top: 8px;
+    padding: 0px 9px;
+    align-items: center;
+    justify-content: center;
+}
+.deliver{
+    color: #CCCCCC;
+    font-size: 0.8rem;
+    margin-left: 10px;
+
+}
+.India{ 
+    color: #ffffff;
+    font-size: 1rem;
+}
+.location{
+    display: flex;
+}
+.navsearch{
+    display:flex;
+    justify-content: space-evenly;  
+    width: 688px;
+    height: 60px;
+    border-radius: 3px;
+    align-items: center;
+
+}
+.option{
+    width: 52px;
+    height: 47.2px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    text-align: center;
+    margin-top:1px;
+}
+.searchbar{
+    width: 582px;
+    height: 45.2px;
+    margin-right: 2px;
+}
+.search-icon{
+    width: 45px;
+    height: 47.2px;
+    background-color:rgb(226, 226, 83) ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    
+}
+.searchbar input{
+    width: 100%;        
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.option select{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    background-color:  #f3f3f3;
+    padding: 1px 2px;
+    border:none;
+}
+.search-icon button{
+    width: 100%;
+    height: 100%;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:none;
+    font-size: 1.2rem;
+}
+.flag{
+    width: 70px;
+    height: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.flagimg {
+    background-image: url([CITYPNG.COM]HD\ Official\ Flag\ Of\ United\ States\ Illustration\ -\ 1500x1500.png);
+   background-size: cover;
+    width: 50px;
+    height: 100%;
+}
+
+.nation{
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 1px;
+    background: transparent;
+}
+.nation select{
+    background: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.sign-edit1{
+    font-size: 0.8rem;
+
+}
+.sign-edit2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.searchbar :hover{
+    border: 1.5px solid orange;
+}
+.cart{
+    width: 84px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.cart-logo i{
+    font-size: 1.8rem;
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    height: 39px;
+    background-color: #222f3d;
+
+}
+.all{
+    display: flex ; 
+    justify-content: center;
+}
+.text-panel{
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 0.9rem;
+
+}
+.all i{
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.hero-section{
+    background-image: url(hero.jpg);
+    background-size:cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.cards{
+    width: 1460px;
+    height: 900px;  
+    /* border: 2px solid black; */
+    margin-top: 1000px;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+}
+.card-edit{
+    width: 320px;
+    height: 420px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    padding-left: 4px;
+}
+.card-edit2{
+    width: 320px;
+    height: 420px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 0px 15px;
+    padding-left: 4px;
+}
+.img-game{
+    background-image: url(Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg); 
+    width: 300px; 
+    height: 300px; 
+    background-size: cover; 
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.card-edit h2{
+    margin-left: 5px; 
+    font-size: 1.2rem;
+}
+.card-edit p {
+    margin-top: 20px; 
+    margin-left: 8px; 
+    font-size: 0.9rem; 
+    text-decoration: none;
+}
+.card-edit2 h2{
+    margin-left: 5px; 
+    font-size: 1.2rem;
+}
+.card-editcustom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 420px;
+    /* border: 1px solid black; */
+    margin-left: 30px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    padding-left: 4px;
+}
+
+.img-home{
+    background-image: url(CleaningTool_1x._SY116_CB563137408_.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+
+.img-home2{
+    background-image: url(HomeStorage_1x._SY116_CB563137408_.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home3{
+    background-image: url(HomeDecor_1x._SY116_CB563137408_.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home4{
+    background-image: url(Bedding_1x._SY116_CB563137408_.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+
+.card-editcustom h2{
+    margin-left: -22px; 
+    font-size: 1.2rem;
+}
+.card-editcustom p {
+    margin-top: -25px; 
+    margin-left: -129px; 
+    font-size: 0.9rem; 
+    text-decoration: none;
+}   
+.img-home5{
+    background-image: url(dress.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home6{
+    background-image: url(knit.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home7{
+    background-image: url(jackets.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home8{
+    background-image: url(jewelry.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home9{
+    background-image: url(casarole.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home10{
+    background-image: url(home\ imp.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+.img-home11{
+    background-image: url(decor.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover; 
+}
+.img-home12{
+    background-image: url(pillow.jpg);
+    width: 150px;
+    height: 116px;
+    background-size: cover;
+}
+
+.longcard{
+    width: 1430px;
+    height: 282px;
+    background-color: white;
+    margin-left: 30px;  
+    margin-top: 20px;
+    padding-top: 1px;
+    
+
+}
+
+.longcard h2{
+    font-size: 1.2rem;
+    margin-left: 18px;
+    margin-top: 14px;
+}
+
+.img1{
+    background-image: url(book1.jpg);
+    width: 132px;
+    height: 200px;
+    background-size: cover;
+}
+
+.images{
+    display: flex;
+    width: 1430px;  
+    height: 200px;
+    justify-content: space-evenly;
+    margin-top: 15px;  
+}   
+
+.img2{
+    width: 154px;
+    height: 200px;
+    background-image: url(book2.jpg);
+    background-size: cover;
+}
+
+.img3{
+     width: 154px;
+    height: 200px;
+    background-image: url(book3.jpg);
+    background-size: cover;
+}
+
+.img4{
+    width: 133px;
+    height: 200px;
+    background-image: url(book4.jpg);
+    background-size: cover;
+}
+
+.img5{
+     width: 133px;
+    height: 200px;
+    background-image: url(book5.jpg) ;
+    background-size: cover;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    width: 1550px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: -35px;
+    margin-top: 20px;
+
+
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    margin-left: -35px;
+    width: 1550px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.25px solid white;
+    height: 70px;
+    width: 1550px;
+    margin-left: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(White-Amazon-Logo-PNG-HD-Quality.png);
+    height: 50px;
+    width: 142px;
+    background-size: cover;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    width: 1500px;
+    margin-left: -35px;
+    padding: 25px;
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 5px;
+     font-size: 0.7rem;
+     text-align: center;
+}
